@@ -6,3 +6,5 @@ best-fit-calibration/*.IGC
 best-fit-calibration/*.pyc
 best-fit-calibration/__pycache__
 .pio
+.gcc-flags.json
+.clang_complete
