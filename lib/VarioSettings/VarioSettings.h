@@ -1,7 +1,7 @@
 /* VarioSettings -- Main configuration file
  *
  * Copyright 2016-2019 Baptiste PELLEGRIN
- * 
+ *
  * This file is part of GNUVario.
  *
  * GNUVario is free software: you can redistribute it and/or modify
@@ -42,7 +42,7 @@
 
 
 /* time zone relative to UTC */
-#define VARIOMETER_TIME_ZONE (+2) 
+#define VARIOMETER_TIME_ZONE (+2)
 
 /*********/
 /* Beeps */
@@ -103,7 +103,7 @@
 
 /* Set the GPS precision needed to use the GPS altitude value  */
 /* to calibrate the barometric altitude.                       */
-/*      !!! the best possible precision is 100 !!!             */ 
+/*      !!! the best possible precision is 100 !!!             */
 #define VARIOMETER_GPS_ALTI_CALIBRATION_PRECISION_THRESHOLD 350
 
 
@@ -117,7 +117,7 @@
 //#define VARIOMETER_SDCARD_SEND_CALIBRATED_ALTITUDE
 //#define VARIOMETER_BLUETOOTH_SEND_CALIBRATED_ALTITUDE
 
-/* GPS track recording on SD card starting condition :  */ 
+/* GPS track recording on SD card starting condition :  */
 /* -> As soon as possible (GPS fix)                     */
 /* -> When flight start is detected                     */
 //#define VARIOMETER_RECORD_WHEN_FLIGHT_START
@@ -129,7 +129,7 @@
 #define VARIOMETER_SENT_LXNAV_SENTENCE
 
 /* When there is no GPS to sync variometer bluetooth sentences */
-/* set the delay between sendings in milliseconds.             */ 
+/* set the delay between sendings in milliseconds.             */
 #define VARIOMETER_SENTENCE_DELAY 2000
 
 
@@ -140,14 +140,14 @@
 /*----------------------------*/
 
 /* Comment or uncomment according to  */
-/* what you embed in the variometer   */ 
-#define HAVE_SPEAKER
-#define HAVE_ACCELEROMETER
-#define HAVE_SCREEN
-#define HAVE_GPS
-#define HAVE_SDCARD
-#define HAVE_BLUETOOTH
-#define HAVE_VOLTAGE_DIVISOR
+/* what you embed in the variometer   */
+//#define HAVE_SPEAKER
+//#define HAVE_ACCELEROMETER
+//#define HAVE_SCREEN
+//#define HAVE_GPS
+//#define HAVE_SDCARD
+//#define HAVE_BLUETOOTH
+//#define HAVE_VOLTAGE_DIVISOR
 
 /* ms5611 parameters */
 /* You can set the calibration coefficients if known */
